@@ -1,0 +1,25 @@
+Step by step process for this project:
+
+License Plates prediction(Ipy file):
+==========================
+
+1) First i load the dataset.
+2) Get the file name
+3) check the image and output
+4) Then doing the data preprocessing
+5) The split the data into train and test.
+6) Construct Deep Learning Model for Object Detection.
+7) Traing the object model and get 98% accuracy.
+8) Then convert the my_model file.
+
+Plate and number prediction(Ipy file):
+=====================================
+
+9) Load the my_model file for prediction.
+10) Find the Height and weight.
+11) Then convert into Xmin,Ymin,Xmax,Ymax.
+12) Predict the Bounding Box perfectly.
+13) Create a pipiline.
+14) Check the test Images.
+15) Find the Text in the Plates using OCR.
+16) Finnaly predict the bounding box and plate number in the image.
